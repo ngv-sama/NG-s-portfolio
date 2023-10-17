@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil Guru - Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .section-title {
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .project,
+        .responsibility,
+        .extracurricular,
+        .award {
+            margin-bottom: 20px;
+        }
+        .image {
+            text-align: center;
+        }
+        
+        .image img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+        }
+        
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">
+            <h1>Nikhil Guru</h1>
+            <p class="lead">Author | Placement Councilor | AI Enthusiast | Data Scientist</p>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#por">Positions of Responsibility</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#extracurriculars">Extra Curriculars</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#awards">Awards</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="bg-primary text-white text-center py-5">
+        <h1></h1>
+        <p class="lead"></p>
+    </header>
+    
+    <section id="about" class="container my-5">
+        <h2>About Me</h2>
+        <p>Avid learner with a desire to tackle new challenges. Adaptable to unexpected situations and strong work ethic. Powerful communicator and experienced public speaker.</p>
+    </section>
+
+    <section id="skills" class="container my-5">
+        <h2>Skills</h2>
+        <ul>
+            <li>Languages: C/C++, Python, Java, JavaScript, HTML/CSS, SQL</li>
+            <li>Frameworks: Flask, Electron JS</li>
+            <li>Tools: VSCode, Colab, Kali Linux</li>
+            <li>Libraries: Numpy, Matplotlib, Pandas, Scikit-Learn, TextBlob, BeautifulSoup, Requests, CICFlowmeter</li>
+        </ul>
+    </section>
+
+    <section id="education" class="container my-5">
+        <h2>Education</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Bachelor of Technology - Computer Science Engineering</h3>
+                <p>Keshav Memorial Institute of Technology, Hyderabad, India</p>
+                <p>CGPA: 8.4 (2021-2025*)</p>
+            </div>
+            <div class="col-md-6">
+                <h3>Bachelor of Science - Data Science And Applications</h3>
+                <p>Indian Institute of Technology Madras, Chennai, India</p>
+                <p>CGPA: 8.1 (2021-2025*)</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="container my-5">
+        <h2>Experience</h2>
+        <div class="job">
+            <h3>Machine Learning Teaching Assistant</h3>
+            <p>International Finishing School, KMIT, Hyderabad, India</p>
+            <p>July 2022-August 2023</p>
+            <ul>
+                <li>Provided technical assistance to faculty members in developing course curricula</li>
+                <li>Assisted with the design of study material, lectures, and tutorials on machine learning topics.</li>
+                <!-- Add more bullet points as needed -->
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>Python Teaching Assistant</h3>
+            <p>Indian Institute of Technology Madras, Chennai, India</p>
+            <p>August 2022-September 2022</p>
+            <ul>
+                <li>Provided one-on-one support for special needs students.</li>
+                <li>Facilitated small group instruction sessions on various topics.</li>
+                <!-- Add more bullet points as needed -->
+            </ul>
+        </div>
+    </section>
+
+    <!-- Add sections for Projects, Positions of Responsibility, Extra Circulars, Recognitions and Awards, etc. -->
+    <section id="projects" class="container my-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-title">Projects</h2>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h3 class="card-title">AI Zero-Day Attack Detection and Prevention</h3>
+                        <p class="card-text">Utilized a CICFlowmeter, a network packet collection tool, in conjunction with other Python-based technologies to predict and mitigate Zero Day Cyber Security Attacks.</p>
+                        <p class="card-text"><small class="text-muted">Awarded best project from a pool of 400 students</small></p>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h3 class="card-title">Analysis of Course Curriculum - Business Data Management Capstone</h3>
+                        <p class="card-text">Performed a detailed analysis of the curriculum of an institute of higher and continued education.</p>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h3 class="card-title">Grocery Store Application</h3>
+                        <p class="card-text">Created a user-friendly RBAC grocery store application using Vue JS, and Flask.</p>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h3 class="card-title">Museum Navigation Application</h3>
+                        <p class="card-text">Created an application allowing users to find the shortest path between exhibits in the Louvre Museum.</p>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h3 class="card-title">Movie Review Analysis - Machine Learning Project</h3>
+                        <p class="card-text">Conducted comprehensive analysis of movie reviews through EDA, Data Preprocessing, and Data Visualization.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="por" class="container my-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-title">Positions of Responsibility</h2>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h3 class="card-title">Student Placement Council Member-Indian Institute of Technology Madras</h3>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Prepared resume guidelines for a student body of 20,000</li>
+                            <li class="list-group-item">Communicated with HRS as POC during the annual Placement Drive</li>
+                            <li class="list-group-item">Organized and hosted multiple sessions with notable industry figures</li>
+                            <li class="list-group-item">Assisted students in placement interview preparation</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h3 class="card-title">Head of Content Creation for social media platforms, in charge of volunteer recruitment and newsletter publication</h3>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h3 class="card-title">Event Coordinator - Paradox Technical Fest, Indian Institute of Technology Madras</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="extracurriculars" class="container my-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-title">Extra Curriculars</h2>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h3 class="card-title">Author- A Path to Change Yesterday</h3>
+                        <p class="card-text">Published national award-winning author</p>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h3 class="card-title">Creator - KMITRA Magazine</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="awards" class="container my-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-title">Recognitions and Awards</h2>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h3 class="card-title">Top Prize - Pitch Perfect Business Competition</h3>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h3 class="card-title">Pride of Hyderabad (Literary Award) - Government of Telangana</h3>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h3 class="card-title">Telangana Rashtra Sarwabhoma (Literary Award) - Government of Telangana</h3>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h3 class="card-title">Top 100 Authors of India (Literary Award) - India Awaz</h3>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h3 class="card-title">Swami Vivekananda Excellence Award (Literary Award) - Amity University and Government of West Bengal</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>Contact: your@email.com | LinkedIn: linkedin.com/in/yourprofile</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
